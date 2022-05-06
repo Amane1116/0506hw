@@ -41,7 +41,7 @@ void loop()
   for(byte k = 0; k < 4; k++){
 
     for(byte j = 0; j < 4; j++) {
-      digitalWrite(power_pins[j],LOW);
+      digitalWrite(power_pins[j],LOW);//瞬間熄滅
     }    
 
     for(byte j = 0; j < 8; j++){
